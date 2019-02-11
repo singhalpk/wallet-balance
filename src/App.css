@@ -7,7 +7,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+form{
+  margin-top: 30px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,6 +23,58 @@
 
 .App-link {
   color: #61dafb;
+}
+.input1{
+  font-family: Work Sans,sans-serif;
+    font-size: 14px;
+    width: 300px;
+    display: inline-block;
+    padding: 13px 12px;
+    outline: none;
+    background: #fff;
+}
+.input2{
+      color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background: #2C3E7C;
+    cursor: pointer;
+    padding: 15px 12px;
+    font-family: Work Sans,sans-serif;
+    font-size: 14px;
+    display: inline-block;
+}
+.showBalance{
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+.showBalance-div{
+  background: #e5e5e5;
+   width:300px;
+   padding-bottom: 30px;
+}
+.walletbalance{
+  background: #e5e5e5;
+  width: 300px;
+  display: flex;
+}
+.rupeeImg{
+      height: 30px;
+    margin-top: 24px;
+    margin-left: 73px;
+
+}
+.walletbalance-balance {
+    float: left;
+    display: inline-block;
+    padding: 0 .2em;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
 }
 
 @keyframes App-logo-spin {
